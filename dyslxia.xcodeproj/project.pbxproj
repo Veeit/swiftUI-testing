@@ -1,0 +1,614 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		526693EE22A72115003CAE55 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526693ED22A72115003CAE55 /* AppDelegate.swift */; };
+		526693F022A72115003CAE55 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526693EF22A72115003CAE55 /* SceneDelegate.swift */; };
+		526693F322A72115003CAE55 /* dyslxia.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 526693F122A72115003CAE55 /* dyslxia.xcdatamodeld */; };
+		526693F522A72115003CAE55 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526693F422A72115003CAE55 /* ContentView.swift */; };
+		526693F722A72117003CAE55 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 526693F622A72117003CAE55 /* Assets.xcassets */; };
+		526693FA22A72117003CAE55 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 526693F922A72117003CAE55 /* Preview Assets.xcassets */; };
+		526693FD22A72117003CAE55 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 526693FB22A72117003CAE55 /* LaunchScreen.storyboard */; };
+		5266940822A72117003CAE55 /* dyslxiaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5266940722A72117003CAE55 /* dyslxiaTests.swift */; };
+		5266941322A72117003CAE55 /* dyslxiaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5266941222A72117003CAE55 /* dyslxiaUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5266940422A72117003CAE55 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 526693E222A72115003CAE55 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 526693E922A72115003CAE55;
+			remoteInfo = dyslxia;
+		};
+		5266940F22A72117003CAE55 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 526693E222A72115003CAE55 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 526693E922A72115003CAE55;
+			remoteInfo = dyslxia;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		526693EA22A72115003CAE55 /* dyslxia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dyslxia.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		526693ED22A72115003CAE55 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		526693EF22A72115003CAE55 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		526693F222A72115003CAE55 /* dyslxia.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = dyslxia.xcdatamodel; sourceTree = "<group>"; };
+		526693F422A72115003CAE55 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		526693F622A72117003CAE55 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		526693F922A72117003CAE55 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		526693FC22A72117003CAE55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		526693FE22A72117003CAE55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5266940322A72117003CAE55 /* dyslxiaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dyslxiaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5266940722A72117003CAE55 /* dyslxiaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dyslxiaTests.swift; sourceTree = "<group>"; };
+		5266940922A72117003CAE55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5266940E22A72117003CAE55 /* dyslxiaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dyslxiaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5266941222A72117003CAE55 /* dyslxiaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dyslxiaUITests.swift; sourceTree = "<group>"; };
+		5266941422A72117003CAE55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		526693E722A72115003CAE55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5266940022A72117003CAE55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5266940B22A72117003CAE55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		526693E122A72115003CAE55 = {
+			isa = PBXGroup;
+			children = (
+				526693EC22A72115003CAE55 /* dyslxia */,
+				5266940622A72117003CAE55 /* dyslxiaTests */,
+				5266941122A72117003CAE55 /* dyslxiaUITests */,
+				526693EB22A72115003CAE55 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		526693EB22A72115003CAE55 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				526693EA22A72115003CAE55 /* dyslxia.app */,
+				5266940322A72117003CAE55 /* dyslxiaTests.xctest */,
+				5266940E22A72117003CAE55 /* dyslxiaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		526693EC22A72115003CAE55 /* dyslxia */ = {
+			isa = PBXGroup;
+			children = (
+				526693ED22A72115003CAE55 /* AppDelegate.swift */,
+				526693EF22A72115003CAE55 /* SceneDelegate.swift */,
+				526693F422A72115003CAE55 /* ContentView.swift */,
+				526693F622A72117003CAE55 /* Assets.xcassets */,
+				526693FB22A72117003CAE55 /* LaunchScreen.storyboard */,
+				526693FE22A72117003CAE55 /* Info.plist */,
+				526693F122A72115003CAE55 /* dyslxia.xcdatamodeld */,
+				526693F822A72117003CAE55 /* Preview Content */,
+			);
+			path = dyslxia;
+			sourceTree = "<group>";
+		};
+		526693F822A72117003CAE55 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				526693F922A72117003CAE55 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5266940622A72117003CAE55 /* dyslxiaTests */ = {
+			isa = PBXGroup;
+			children = (
+				5266940722A72117003CAE55 /* dyslxiaTests.swift */,
+				5266940922A72117003CAE55 /* Info.plist */,
+			);
+			path = dyslxiaTests;
+			sourceTree = "<group>";
+		};
+		5266941122A72117003CAE55 /* dyslxiaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5266941222A72117003CAE55 /* dyslxiaUITests.swift */,
+				5266941422A72117003CAE55 /* Info.plist */,
+			);
+			path = dyslxiaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		526693E922A72115003CAE55 /* dyslxia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5266941722A72117003CAE55 /* Build configuration list for PBXNativeTarget "dyslxia" */;
+			buildPhases = (
+				526693E622A72115003CAE55 /* Sources */,
+				526693E722A72115003CAE55 /* Frameworks */,
+				526693E822A72115003CAE55 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = dyslxia;
+			productName = dyslxia;
+			productReference = 526693EA22A72115003CAE55 /* dyslxia.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5266940222A72117003CAE55 /* dyslxiaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5266941A22A72117003CAE55 /* Build configuration list for PBXNativeTarget "dyslxiaTests" */;
+			buildPhases = (
+				526693FF22A72117003CAE55 /* Sources */,
+				5266940022A72117003CAE55 /* Frameworks */,
+				5266940122A72117003CAE55 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5266940522A72117003CAE55 /* PBXTargetDependency */,
+			);
+			name = dyslxiaTests;
+			productName = dyslxiaTests;
+			productReference = 5266940322A72117003CAE55 /* dyslxiaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5266940D22A72117003CAE55 /* dyslxiaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5266941D22A72117003CAE55 /* Build configuration list for PBXNativeTarget "dyslxiaUITests" */;
+			buildPhases = (
+				5266940A22A72117003CAE55 /* Sources */,
+				5266940B22A72117003CAE55 /* Frameworks */,
+				5266940C22A72117003CAE55 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5266941022A72117003CAE55 /* PBXTargetDependency */,
+			);
+			name = dyslxiaUITests;
+			productName = dyslxiaUITests;
+			productReference = 5266940E22A72117003CAE55 /* dyslxiaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		526693E222A72115003CAE55 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = veit.dev;
+				TargetAttributes = {
+					526693E922A72115003CAE55 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+					5266940222A72117003CAE55 = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = 526693E922A72115003CAE55;
+					};
+					5266940D22A72117003CAE55 = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = 526693E922A72115003CAE55;
+					};
+				};
+			};
+			buildConfigurationList = 526693E522A72115003CAE55 /* Build configuration list for PBXProject "dyslxia" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 526693E122A72115003CAE55;
+			productRefGroup = 526693EB22A72115003CAE55 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				526693E922A72115003CAE55 /* dyslxia */,
+				5266940222A72117003CAE55 /* dyslxiaTests */,
+				5266940D22A72117003CAE55 /* dyslxiaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		526693E822A72115003CAE55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				526693FD22A72117003CAE55 /* LaunchScreen.storyboard in Resources */,
+				526693FA22A72117003CAE55 /* Preview Assets.xcassets in Resources */,
+				526693F722A72117003CAE55 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5266940122A72117003CAE55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5266940C22A72117003CAE55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		526693E622A72115003CAE55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				526693F322A72115003CAE55 /* dyslxia.xcdatamodeld in Sources */,
+				526693EE22A72115003CAE55 /* AppDelegate.swift in Sources */,
+				526693F522A72115003CAE55 /* ContentView.swift in Sources */,
+				526693F022A72115003CAE55 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		526693FF22A72117003CAE55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5266940822A72117003CAE55 /* dyslxiaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5266940A22A72117003CAE55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5266941322A72117003CAE55 /* dyslxiaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5266940522A72117003CAE55 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 526693E922A72115003CAE55 /* dyslxia */;
+			targetProxy = 5266940422A72117003CAE55 /* PBXContainerItemProxy */;
+		};
+		5266941022A72117003CAE55 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 526693E922A72115003CAE55 /* dyslxia */;
+			targetProxy = 5266940F22A72117003CAE55 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		526693FB22A72117003CAE55 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				526693FC22A72117003CAE55 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5266941522A72117003CAE55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5266941622A72117003CAE55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5266941822A72117003CAE55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "dyslxia/Preview\\ Content";
+				DEVELOPMENT_TEAM = 7RPD69GC7T;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = dyslxia/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = veit.dev.dyslxia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5266941922A72117003CAE55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "dyslxia/Preview\\ Content";
+				DEVELOPMENT_TEAM = 7RPD69GC7T;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = dyslxia/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = veit.dev.dyslxia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5266941B22A72117003CAE55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7RPD69GC7T;
+				INFOPLIST_FILE = dyslxiaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = veit.dev.dyslxiaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/dyslxia.app/dyslxia";
+			};
+			name = Debug;
+		};
+		5266941C22A72117003CAE55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7RPD69GC7T;
+				INFOPLIST_FILE = dyslxiaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = veit.dev.dyslxiaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/dyslxia.app/dyslxia";
+			};
+			name = Release;
+		};
+		5266941E22A72117003CAE55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7RPD69GC7T;
+				INFOPLIST_FILE = dyslxiaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = veit.dev.dyslxiaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = dyslxia;
+			};
+			name = Debug;
+		};
+		5266941F22A72117003CAE55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7RPD69GC7T;
+				INFOPLIST_FILE = dyslxiaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = veit.dev.dyslxiaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = dyslxia;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		526693E522A72115003CAE55 /* Build configuration list for PBXProject "dyslxia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5266941522A72117003CAE55 /* Debug */,
+				5266941622A72117003CAE55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5266941722A72117003CAE55 /* Build configuration list for PBXNativeTarget "dyslxia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5266941822A72117003CAE55 /* Debug */,
+				5266941922A72117003CAE55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5266941A22A72117003CAE55 /* Build configuration list for PBXNativeTarget "dyslxiaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5266941B22A72117003CAE55 /* Debug */,
+				5266941C22A72117003CAE55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5266941D22A72117003CAE55 /* Build configuration list for PBXNativeTarget "dyslxiaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5266941E22A72117003CAE55 /* Debug */,
+				5266941F22A72117003CAE55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		526693F122A72115003CAE55 /* dyslxia.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				526693F222A72115003CAE55 /* dyslxia.xcdatamodel */,
+			);
+			currentVersion = 526693F222A72115003CAE55 /* dyslxia.xcdatamodel */;
+			path = dyslxia.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 526693E222A72115003CAE55 /* Project object */;
+}
